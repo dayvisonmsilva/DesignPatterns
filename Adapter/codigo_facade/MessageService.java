@@ -1,7 +1,7 @@
-package Adapter.codigo_facade;
+package adapter.codigo_facade;
 
-import Adapter.EmailSender.EmailSender;
-import Adapter.SmsSender.SmsSender;
+import adapter.EmailSender.EmailSender;
+import adapter.SmsSender.SmsSender;
 
 public class MessageService {
     private EmailSender emailSender;

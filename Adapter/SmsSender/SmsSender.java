@@ -1,5 +1,5 @@
-package Adapter.SmsSender;
-import Adapter.MessageSender.MessageSender;
+package adapter.SmsSender;
+import adapter.MessageSender.MessageSender;
 
 public class SmsSender implements MessageSender {
     @Override

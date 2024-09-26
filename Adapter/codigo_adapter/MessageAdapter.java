@@ -1,6 +1,6 @@
-package Adapter.codigo_adapter;
-import Adapter.EmailSender.EmailSender;
-import Adapter.MessageSender.MessageSender;
+package adapter.codigo_adapter;
+import adapter.EmailSender.EmailSender;
+import adapter.MessageSender.MessageSender;
 
 public class MessageAdapter implements MessageSender {
     private EmailSender emailSender;

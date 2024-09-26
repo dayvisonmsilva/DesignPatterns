@@ -1,4 +1,4 @@
-package Adapter.codigo_facade;
+package adapter.codigo_facade;
 
 public class Main {
     public static void main(String[] args) {

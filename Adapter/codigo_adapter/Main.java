@@ -1,8 +1,8 @@
-package Adapter.codigo_adapter;
+package adapter.codigo_adapter;
 
-import Adapter.EmailSender.EmailSender;
-import Adapter.MessageSender.MessageSender;
-import Adapter.SmsSender.SmsSender;
+import adapter.EmailSender.EmailSender;
+import adapter.MessageSender.MessageSender;
+import adapter.SmsSender.SmsSender;
 
 public class Main {
     public static void main(String[] args) {

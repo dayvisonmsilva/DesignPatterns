@@ -1,4 +1,4 @@
-package Adapter.EmailSender;
+package adapter.EmailSender;
 
 public class EmailSender {
     public void sendEmail(String message) {
