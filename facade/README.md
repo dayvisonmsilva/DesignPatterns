@@ -16,7 +16,7 @@ Embora facilite o uso, o Facade pode acabar concentrando muitas responsabilidade
 
 ## Estrutura
 
-Veja a pasta diagramas.
+Veja a pasta diagrama.
 
 ## Aplicabilidade
 
