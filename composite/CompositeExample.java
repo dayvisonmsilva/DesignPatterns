@@ -6,7 +6,7 @@ interface Component {
     void display();
 }
 
-// Folha
+// Nó folha
 class Leaf implements Component {
     private String name;
 
