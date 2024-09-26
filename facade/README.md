@@ -6,7 +6,7 @@
 
 ---
 
-## Sobre o Façade
+## Sobre o Facade
 
 O padrão **Facade** simplifica o código cliente, criando uma interface unificada para sistemas complexos. Em vez de o cliente precisar instanciar várias classes e chamar diversos métodos, o Facade oferece uma interface simples para acessar funcionalidades necessárias. Ele atua como um intermediário, similar a um atendente em um call center, direcionando o cliente ao setor correto, sem esconder a complexidade do sistema.
 
