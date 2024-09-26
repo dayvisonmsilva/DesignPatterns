@@ -1,4 +1,4 @@
-# Façade - Structural (Estrutural)
+# Facade - Structural (Estrutural)
 
 ## Intenção
 
@@ -25,6 +25,13 @@ Use o padrão Façade quando:
 - você quer disponibilizar uma interface mais simples para um sistema complexo
 - você quer criar pontos de entrada para determinadas partes do sistema, como serviços externos, camadas da aplicação e objetos complexos dentro em determinadas partes do código  
 
-## Implementação
+## Implementação exemplo
+- **Meal**: Representa o produto final, que é uma refeição. Pode conter vários itens e calcular o preço total.
 
-Veja o código e os diagramas dessa pasta para entender como o Façade é implementado.
+- **MealBuilder Interface**: Define os métodos para construir refeições e obter o resultado final.
+
+- **MainDishBuilder e VeganDishBuilder**: Classes concretas que implementam a interface `MealBuilder`, cada uma responsável por construir um tipo específico de refeição.
+
+- **BuilderFacade**: É a classe **Facade**, que expõe métodos simples (`makeMeal1()`, `makeMeal2()`, `makeMeal3()`) para construir refeições, escondendo a complexidade de manipular os builders diretamente.
+
+- **Main**: Ponto de entrada do programa, demonstrando o uso do **Facade** para simplificar a criação de refeições.
